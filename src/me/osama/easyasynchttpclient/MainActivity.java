@@ -71,9 +71,11 @@ public class MainActivity extends Activity {
         String url = "http://petarosoft.com/android/samplejson";
         
         AsyncHttpGetClient asyncHttpGetClient = new AsyncHttpGetClient(MainActivity.this, url, parameters , handler);
-        asyncHttpGetClient.execute("");
         
+        AsyncHttpPostClient asyncHttpPostClient = new AsyncHttpPostClient(MainActivity.this, url, parameters , handler);
+//        asyncHttpGetClient.execute("");
         
+        asyncHttpPostClient.execute("");
         
     }
 
