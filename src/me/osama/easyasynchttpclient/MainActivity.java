@@ -15,7 +15,7 @@ import android.os.Message;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
-
+// gonna make a change here and then push
     private Handler handler;
 
 	@Override
